@@ -4,8 +4,9 @@
 }
 
 body {
-    background-image: linear-gradient(#FFE8D1, #FFFFFF);
+    background-image: linear-gradient(#FFE8D1, #FFFFFF 98%);
     font-family: "Andale Mono", Monospace;
+    margin-top: 20px;
 }
 
 .main {
