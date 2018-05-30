@@ -7,14 +7,18 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    /* border: 3px solid black; */
+
 }
 
 h3 {
     text-align: center;
 }
 #airports, #bus-terminals, #visited-cities, #rental-companies {
-    padding: 1%;
+    padding: 5%;
     border: solid 2px black;
     margin-top: 1%;
+}
+
+#travel-report {
+    padding-bottom: 5%;
 }
