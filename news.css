@@ -1,3 +1,82 @@
 div.a {
     text-indent: 25px;
+    border: 5px outset red;
+    border-radius: 2%;
+    padding: 3px;
+    margin-bottom: 25px; 
+    font-weight: bold;   
+}
+
+.a img {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3.5em;
+    display: flex;
+    justify-content: center;
+}
+ 
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.hey {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.tech {
+    border: 3px solid black; 
+    width: 650px;
+    border-radius: 18%;
+    padding: 8px;
+}   
+
+.sci {
+    border: 3px solid black;
+    flex-grow: 1;
+    border-radius: 18%;
+    padding: 8px;
+    
+}   
+
+.bo {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.auto {
+    border: 3px solid black;
+    width: 570px;
+    border-radius: 18%;
+    padding: 8px;
+}
+
+.cel {
+    border: 3px solid black;
+    flex-grow: 1;
+    border-radius: 18%;
+    padding: 8px;
+}
+
+.doi {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.edu {
+    border: 3px solid black;
+    width: 630px;
+    border-radius: 18%;
+    padding: 8px;
+}
+
+.pol {
+    border: 3px solid black;
+    flex-grow: 1;
+    border-radius: 18%;
+    padding: 8px;
 }
