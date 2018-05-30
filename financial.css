@@ -11,3 +11,8 @@ ul {
     list-style-type: none;
     text-align: center;
 }
+
+#bank accounts,  {
+    padding: 5%;
+    border: solid 2px black;
+    margin-top: 1%;
