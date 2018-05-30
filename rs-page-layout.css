@@ -4,3 +4,10 @@
     justify-content: flex-start;
     flex-flow: space-between;
 }
+
+#locations-container ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: space-between;
+}
