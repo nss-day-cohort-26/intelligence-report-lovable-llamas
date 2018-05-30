@@ -29,7 +29,7 @@ Victims of Crimes
 ##News Feed
 Recent Events Possibly Connected to Subject
     1. Recent Murders
-        1. New Mexico, Arizon, Nogales
+        1. New Mexico, Arizona, Nogales
         2. 06/2011-10/2011
         3. Victims
         4. Witnesses
