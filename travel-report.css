@@ -1,6 +1,20 @@
 h1 {
     width: 100%;
+    text-align: center;
 }
-  #travel-report { 
- display: block;
+  #content { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* border: 3px solid black; */
+}
+
+h3 {
+    text-align: center;
+}
+#airports, #bus-terminals, #visited-cities, #rental-companies {
+    padding: 1%;
+    border: solid 2px black;
+    margin-top: 1%;
 }
