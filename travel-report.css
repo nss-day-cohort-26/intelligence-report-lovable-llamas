@@ -2,16 +2,17 @@ h1 {
     width: 100%;
     text-align: center;
 }
-  #content { 
+#content { 
     display: flex;
+    justify-content: center;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
 h3 {
     text-align: center;
+    padding-bottom: 2%;
 }
 #airports, #bus-terminals, #visited-cities, #rental-companies {
     padding: 5%;
@@ -22,3 +23,16 @@ h3 {
 #travel-report {
     padding-bottom: 5%;
 }
+
+#content li {
+    font-size: 1.5em;
+}
+
+ /* #rental-companies >ul ~ img {
+    float: left;
+    display: flex;
+    max-width: 10%;
+    max-height: 10%;
+    flex-wrap: wrap;
+
+} */
