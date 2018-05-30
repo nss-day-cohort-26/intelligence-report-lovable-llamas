@@ -8,6 +8,6 @@
 #locations-container ul {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    flex-flow: space-between;
+    align-items: baseline;
+    flex-flow: space-around;
 }
