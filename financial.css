@@ -3,33 +3,48 @@ h1 {
     text-align: center;
 }
 
-h3 {
+h2 {
     text-align: center;
 }
+
 
 ul {
-    list-style-type: none;
-    text-align: center;
+    list-style-type: disc;
 }
 
+
 #bank-accounts {
-    padding: 5%;
-    border: solid 2px black;
+    padding: 2%;
     margin-top: 1%;
+    border-bottom: 2px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 #businesses {
-    padding: 5%;
-    border: solid 2px black;
+    padding: 2%;
     margin-top: 1%;
+    border-bottom: 2px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 #officials-blackmailed {
-    padding: 5%;
-    border: solid 2px black;
+    padding: 2%;
     margin-top: 1%;
+    border-bottom: 2px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 #money-laundering {
-    padding: 5%;
-    border: solid 2px black;
+    padding: 2%;
     margin-top: 1%;
+    border-bottom: 2px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
+
 
