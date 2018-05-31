@@ -35,10 +35,13 @@ h3 {
     
 }
  
+
 .imgs{
-    display: flex;
-    float: left;
-    flex-wrap: wrap;
-    width:150px;
-    height: 100px;
+    display: block;
+    width:55%;
+    height: 50%;
+}
+
+.rental-companies ~ .centerFix {
+    justify-content: center;
 }
