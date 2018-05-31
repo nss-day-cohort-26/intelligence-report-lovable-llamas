@@ -42,12 +42,11 @@ h3 {
     height: 50%;
 }
 
-.rental-companies ~ .centerFix {
+/* .rental-companies ~ .centerFix {
     justify-content: center;
-}
+} */
 
 #airports {
-    border-bottom: 3px dashed black;
     padding-bottom: 40px;
     width: 70%;
     padding-bottom: 40px;
@@ -59,9 +58,22 @@ h3 {
 
 #airports div > li {
     padding-bottom: 20px;
-    list-style: none;
+    list-style-type: none;
 }
 
-#airports div > li > ul > li {
-    list-style: inside;   
+#airports ul > li {
+    list-style: none; 
+    /* display: inline-block; */
+}
+
+.map-item-container {
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 2%; */
+    /* justify-content: space-between; */
+    /* align-self: center */
+}
+
+.map-item-container > li {
+    padding-left: 2%;
 }
