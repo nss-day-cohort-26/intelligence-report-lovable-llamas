@@ -25,6 +25,12 @@ body {
 
 .shadow-box {
     box-shadow: 5px 5px 4px grey;
+    border: 1.5px solid grey;
+    padding: 10px;
+}
+
+.shadow-box ul > li {
+    list-style: inside;
 }
 
 /*----------------############# ID Selectors ----------------#############*/
