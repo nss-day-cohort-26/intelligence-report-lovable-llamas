@@ -28,11 +28,52 @@ h3 {
     font-size: 1.5em;
 }
 
- /* #rental-companies >ul ~ img {
-    float: left;
-    display: flex;
-    max-width: 10%;
-    max-height: 10%;
-    flex-wrap: wrap;
+#airports, #bus-terminals, #visited-cities, #rental-companies{
+    list-style-type: none;
+    color:black;
+    border-radius: 20px;
+    
+}
+ 
 
+.imgs{
+    display: block;
+    width:55%;
+    height: 50%;
+}
+
+/* .rental-companies ~ .centerFix {
+    justify-content: center;
 } */
+
+#airports {
+    padding-bottom: 40px;
+    width: 70%;
+    padding-bottom: 40px;
+}
+
+#airports div{
+    margin: 40px;
+}
+
+#airports div > li {
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+
+#airports ul > li {
+    list-style: none; 
+    /* display: inline-block; */
+}
+
+.map-item-container {
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 2%; */
+    /* justify-content: space-between; */
+    /* align-self: center */
+}
+
+.map-item-container > li {
+    padding-left: 2%;
+}
