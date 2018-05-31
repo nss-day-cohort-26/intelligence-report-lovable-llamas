@@ -1,0 +1,50 @@
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: disc;
+}
+
+
+#bank-accounts {
+    padding: 2%;
+    margin-top: 1%;
+    border-bottom: 2px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#businesses {
+    padding: 2%;
+    margin-top: 1%;
+    border-bottom: 2px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#officials-blackmailed {
+    padding: 2%;
+    margin-top: 1%;
+    border-bottom: 2px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#money-laundering {
+    padding: 2%;
+    margin-top: 1%;
+    border-bottom: 2px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
