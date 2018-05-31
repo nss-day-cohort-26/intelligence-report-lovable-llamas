@@ -45,3 +45,23 @@ h3 {
 .rental-companies ~ .centerFix {
     justify-content: center;
 }
+
+#airports {
+    border-bottom: 3px dashed black;
+    padding-bottom: 40px;
+    width: 70%;
+    padding-bottom: 40px;
+}
+
+#airports div{
+    margin: 40px;
+}
+
+#airports div > li {
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+#airports div > li > ul > li {
+    list-style: inside;   
+}
