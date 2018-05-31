@@ -1,10 +1,13 @@
 *{
     box-sizing: border-box;
 }
+/*----------------############# Tag Selectors ----------------#############*/
 
 body {
     margin: 20px;
 }
+
+/*----------------############# Class Selectors ----------------#############*/
 
 .main {
     display: flex;
@@ -19,6 +22,12 @@ body {
     border-bottom: 16px solid black;
     
 }
+
+.shadow-box {
+    box-shadow: 5px 5px 4px grey;
+}
+
+/*----------------############# ID Selectors ----------------#############*/
 
 #crimes-container {
     width: 70%;
@@ -52,6 +61,11 @@ body {
 
 #locations-container div > li {
     padding-bottom: 20px;
+    list-style: none;
+}
+
+#locations-container div > li > ul > li {
+    list-style: inside;   
 }
 
 #witness-victim-container {
