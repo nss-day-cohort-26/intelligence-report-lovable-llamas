@@ -11,15 +11,32 @@ h2 {
 ul {
     list-style-type: disc;
 }
+.financial-interests-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+.list-styles {
+    padding: 2.5%;
+    margin: auto;
+    border-bottom: 2px solid;
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    width: 70%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
 
-
-#bank-accounts {
+/* #bank-accounts {
     padding: 2%;
     margin-top: 1%;
     border-bottom: 2px solid;
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 70%;
 }
 #businesses {
     padding: 2%;
@@ -44,7 +61,7 @@ ul {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
+} */
 
 
 
